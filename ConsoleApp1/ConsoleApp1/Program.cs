@@ -15,11 +15,16 @@ namespace ConsoleApp1
             //grkgnejkgnrelg
             /*
              * ovo je blok komentar
-             * **/
-            Probna p = new Probna();
-            Console.WriteLine(p.A);
-            Console.WriteLine("Rješenje je zbroj 20 + 10 = "+ p.Add(p.A,p.b));
+             * */
+            //Probna p = new Probna();
+            //Console.WriteLine(p.A);
+            //Console.WriteLine("Rješenje je zbroj 20 + 10 = "+ p.Add(p.A,p.b));
+            Console.WriteLine("ovo je moj " + 
+                "današnji " + 1 +
+                "." + 
+                " program");
             Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
