@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{31F30331-D9D7-4529-9C4C-B096F2654F21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uvodni", "ConsoleApp1\Uvodni.csproj", "{31F30331-D9D7-4529-9C4C-B096F2654F21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbroj", "Zbroj\Zbroj.csproj", "{724679B0-A0B6-4D3D-8D73-19546C34213F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1_Uvod", "4.1_Uvod", "{5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "ConsoleApp2\Hello.csproj", "{08ABBA5D-74FE-4057-A59E-FDEF261E780C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispis_brojeva", "Ispis_brojeva\Ispis_brojeva.csproj", "{83824699-8F72-4A23-8C09-86670A8B4EAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +27,20 @@ Global
 		{724679B0-A0B6-4D3D-8D73-19546C34213F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724679B0-A0B6-4D3D-8D73-19546C34213F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724679B0-A0B6-4D3D-8D73-19546C34213F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08ABBA5D-74FE-4057-A59E-FDEF261E780C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08ABBA5D-74FE-4057-A59E-FDEF261E780C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08ABBA5D-74FE-4057-A59E-FDEF261E780C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08ABBA5D-74FE-4057-A59E-FDEF261E780C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83824699-8F72-4A23-8C09-86670A8B4EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83824699-8F72-4A23-8C09-86670A8B4EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83824699-8F72-4A23-8C09-86670A8B4EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83824699-8F72-4A23-8C09-86670A8B4EAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08ABBA5D-74FE-4057-A59E-FDEF261E780C} = {5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}
+		{83824699-8F72-4A23-8C09-86670A8B4EAE} = {5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}
 	EndGlobalSection
 EndGlobal
