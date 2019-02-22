@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "ConsoleApp2\Hello.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispis_brojeva", "Ispis_brojeva\Ispis_brojeva.csproj", "{83824699-8F72-4A23-8C09-86670A8B4EAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispis_ledista_i_vrelista_vode", "Ispis_ledista_i_vrelista_vode\Ispis_ledista_i_vrelista_vode.csproj", "{B5487A7F-3841-4CCB-B593-FCF45D27D263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{83824699-8F72-4A23-8C09-86670A8B4EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83824699-8F72-4A23-8C09-86670A8B4EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83824699-8F72-4A23-8C09-86670A8B4EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5487A7F-3841-4CCB-B593-FCF45D27D263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5487A7F-3841-4CCB-B593-FCF45D27D263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5487A7F-3841-4CCB-B593-FCF45D27D263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5487A7F-3841-4CCB-B593-FCF45D27D263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +48,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{08ABBA5D-74FE-4057-A59E-FDEF261E780C} = {5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}
 		{83824699-8F72-4A23-8C09-86670A8B4EAE} = {5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}
+		{B5487A7F-3841-4CCB-B593-FCF45D27D263} = {5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}
 	EndGlobalSection
 EndGlobal
