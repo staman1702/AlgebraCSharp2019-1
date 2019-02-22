@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispis_brojeva", "Ispis_broj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispis_ledista_i_vrelista_vode", "Ispis_ledista_i_vrelista_vode\Ispis_ledista_i_vrelista_vode.csproj", "{B5487A7F-3841-4CCB-B593-FCF45D27D263}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Varijable", "Varijable", "{7CDC7E3E-CA48-4121-8251-3CB049700C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbroj_razlika", "Zbroj_razlika\Zbroj_razlika.csproj", "{95A9D024-54C5-4E4B-8D62-A8F75326C1B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{B5487A7F-3841-4CCB-B593-FCF45D27D263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5487A7F-3841-4CCB-B593-FCF45D27D263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5487A7F-3841-4CCB-B593-FCF45D27D263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A9D024-54C5-4E4B-8D62-A8F75326C1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A9D024-54C5-4E4B-8D62-A8F75326C1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A9D024-54C5-4E4B-8D62-A8F75326C1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A9D024-54C5-4E4B-8D62-A8F75326C1B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +57,6 @@ Global
 		{08ABBA5D-74FE-4057-A59E-FDEF261E780C} = {5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}
 		{83824699-8F72-4A23-8C09-86670A8B4EAE} = {5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}
 		{B5487A7F-3841-4CCB-B593-FCF45D27D263} = {5DCE18A5-7AC8-4D84-8757-15FE88B99F3C}
+		{95A9D024-54C5-4E4B-8D62-A8F75326C1B9} = {7CDC7E3E-CA48-4121-8251-3CB049700C33}
 	EndGlobalSection
 EndGlobal
