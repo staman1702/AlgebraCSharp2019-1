@@ -31,22 +31,27 @@ namespace _5._2._3_exception
                 }
 
                 }
-            catch(FormatException fex)
+            catch (FormatException fex)
             {
-                Console.WriteLine("GREŠKA, krivi format: " 
-                    + fex.Message 
+                Console.WriteLine("GREŠKA, nije unešen numerički znak: "
+                    + fex.Message
                     + "\n "
                     + fex.ToString());
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine("GREŠKA, generička: " 
                     + ex.Message
-                    + "\n" );
+                    + "\n"
+                    + ex.ToString());
 
             }
+
+            finally
+            {
                 Console.ReadKey();
+            }
 
         }
     }
