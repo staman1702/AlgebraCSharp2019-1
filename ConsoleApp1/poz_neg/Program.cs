@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace veci_od
-{
+{//com
     class Program
     {
         static void Main(string[] args)
