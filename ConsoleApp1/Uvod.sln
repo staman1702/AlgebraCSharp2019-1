@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_5.2.1.2.pozitivan",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.2_Switch_primjer", "5.2.2_Switch_primjer\5.2.2_Switch_primjer.csproj", "{DDC7B608-AFA0-42B8-BE12-39C6AF296400}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.3_exception", "5.2.3_exception\5.2.3_exception.csproj", "{4D23FFB2-9292-403B-9D7E-436DCF58AC65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{DDC7B608-AFA0-42B8-BE12-39C6AF296400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC7B608-AFA0-42B8-BE12-39C6AF296400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC7B608-AFA0-42B8-BE12-39C6AF296400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D23FFB2-9292-403B-9D7E-436DCF58AC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D23FFB2-9292-403B-9D7E-436DCF58AC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D23FFB2-9292-403B-9D7E-436DCF58AC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D23FFB2-9292-403B-9D7E-436DCF58AC65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,5 +87,6 @@ Global
 		{91403C34-B1CA-4843-95D0-1326D3D8EFD3} = {8B43B780-5E09-4A39-9333-67D294946868}
 		{40F55FCC-AC3F-4375-BA27-A37B084B9E8F} = {8B43B780-5E09-4A39-9333-67D294946868}
 		{DDC7B608-AFA0-42B8-BE12-39C6AF296400} = {8B43B780-5E09-4A39-9333-67D294946868}
+		{4D23FFB2-9292-403B-9D7E-436DCF58AC65} = {8B43B780-5E09-4A39-9333-67D294946868}
 	EndGlobalSection
 EndGlobal

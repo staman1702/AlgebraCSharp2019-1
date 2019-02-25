@@ -10,6 +10,44 @@ namespace _5._2._3_exception
     {
         static void Main(string[] args)
         {
+            try
+            {
+                Console.Write("Unesite prirodan broj: ");
+                int a = int.Parse(Console.ReadLine());
+
+                if (a > 0)
+                {
+                    Console.WriteLine("Unešeni broj je pozitivan.");
+
+                }
+                else if (a < 0)
+                {
+                    Console.WriteLine("Unešeni broj je negativani.");
+                }
+                else
+                {
+                    Console.WriteLine("Unešeni broj je jednak nuli.");
+
+                }
+
+                }
+            catch(FormatException fex)
+            {
+                Console.WriteLine("GREŠKA, krivi format: " 
+                    + fex.Message 
+                    + "\n "
+                    + fex.ToString());
+
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("GREŠKA, generička: " 
+                    + ex.Message
+                    + "\n" );
+
+            }
+                Console.ReadKey();
+
         }
     }
 }
