@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace switch_HE
 {
     class Program
-    {
+    {//sss
         static void Main(string[] args)
         {
             float a = 0, b = 0;
