@@ -13,7 +13,18 @@ namespace _5._2._4._2_primjer1
             Console.WriteLine("Unesite ime: ");
             string ime = Console.ReadLine();
 
-            if (ime=="Tomislav" || ime=="tomislav" || ime == "Hrvoje" || ime == "hrvoje")
+            if (ime=="Tomislav" || ime=="tomislav" || ime == "Hrvoje" || ime == "hrvoje" || ime == "Mislav" || ime == "mislav")
+            {
+                Console.WriteLine("Dobar dan, direktore " + ime + ".");
+
+            }
+            else
+            {
+                Console.WriteLine("Bok.");
+
+            }
+            Console.ReadKey();
+
         }
     }
 }
