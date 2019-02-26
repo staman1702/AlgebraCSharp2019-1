@@ -8,13 +8,14 @@ namespace _5._2._2_Switch_primjer
 {
     class Program
     {
-        static double SafeDivision(double x, double y);
-        {
-            if (y==0)
-            { 
-            throw new System.DivideByZeroException();
-            }
-            return x / y;
+        //static double SafeDivision(double x, double y);
+        //{
+        //    if (y == 0)
+        //    { 
+        //    throw new System.DivideByZeroException();
+        //    }
+        //  return x / y;
+        //}
 
 
         static void Main(string[] args)
@@ -39,6 +40,7 @@ namespace _5._2._2_Switch_primjer
                 Console.WriteLine("Greška 1:  " + ex.ToString());
 
             }
+
             finally
             {
                 switch (operacija)
@@ -59,18 +61,17 @@ namespace _5._2._2_Switch_primjer
                         break;
 
                     case "/":
-                        try
-                        {
-                            //devidebyzero
-                            Console.WriteLine("kvocijent je: {0} / {1} = {2}", a, b, SafeDivision);
-                           
-                        }
-                        catch (DivideByZeroException dbzex)
-                    {
-                        Console.WriteLine("GREŠKA 2:  " + dbzex.ToString());
 
-                    }
-                    break;
+                        //devidebyzero
+                        Console.WriteLine("kvocijent je: {0} / {1} = {2}", a, b, (a / b);
+                        break;
+                       
+                    //    catch (DivideByZeroException dbzex)
+                    //{
+                    //    Console.WriteLine("GREŠKA 2:  " + dbzex.ToString());
+
+                    //}
+                    //break;
 
                         //catch (Exception ex2)
                         //{
@@ -80,7 +81,7 @@ namespace _5._2._2_Switch_primjer
                         //break;
 
                     default:
-                        Console.WriteLine("Nepoznata operacija");
+                        Console.WriteLine("Nepoznata operacija" + operacija);
 
                         break;
 
@@ -89,7 +90,7 @@ namespace _5._2._2_Switch_primjer
                 }
                 Console.WriteLine("\n\nZa izlaz pritisnite bilo koju tipku...");
                 Console.ReadLine();
-            }
+           }
 
         }
     }
