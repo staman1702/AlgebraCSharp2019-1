@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Zbroj_razlika")]
+[assembly: AssemblyTitle("primjer_5.2.1.2.pozitivan")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Zbroj_razlika")]
+[assembly: AssemblyProduct("primjer_5.2.1.2.pozitivan")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("95a9d024-54c5-4e4b-8d62-a8f75326c1b9")]
+[assembly: Guid("40f55fcc-ac3f-4375-ba27-a37b084b9e8f")]
 
 // Version information for an assembly consists of the following four values:
 //

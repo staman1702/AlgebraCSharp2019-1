@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Zbroj_razlika")]
+[assembly: AssemblyTitle("Ispis_ledista_i_vrelista_vode")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Zbroj_razlika")]
+[assembly: AssemblyProduct("Ispis_ledista_i_vrelista_vode")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("95a9d024-54c5-4e4b-8d62-a8f75326c1b9")]
+[assembly: Guid("b5487a7f-3841-4ccb-b593-fcf45d27d263")]
 
 // Version information for an assembly consists of the following four values:
 //

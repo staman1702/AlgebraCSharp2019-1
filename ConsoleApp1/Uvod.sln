@@ -31,8 +31,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.3_exception", "5.2.3_ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.4.2 primjer1", "5.2.4.2 primjer1\5.2.4.2 primjer1.csproj", "{04435119-5156-40A1-8F9C-F54083646578}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_2_4_3_primjer2", "5_2_4_3_primjer2\5_2_4_3_primjer2.csproj", "{1BA15897-49A7-456C-B4E2-FFD74FF81536}"
 EndProject
+=======
+>>>>>>> 0417a8859faff85f35ffc828825c28741bfc2b15
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,10 +86,13 @@ Global
 		{04435119-5156-40A1-8F9C-F54083646578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04435119-5156-40A1-8F9C-F54083646578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04435119-5156-40A1-8F9C-F54083646578}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{1BA15897-49A7-456C-B4E2-FFD74FF81536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BA15897-49A7-456C-B4E2-FFD74FF81536}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA15897-49A7-456C-B4E2-FFD74FF81536}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA15897-49A7-456C-B4E2-FFD74FF81536}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> 0417a8859faff85f35ffc828825c28741bfc2b15
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,9 @@ Global
 		{40F55FCC-AC3F-4375-BA27-A37B084B9E8F} = {8B43B780-5E09-4A39-9333-67D294946868}
 		{DDC7B608-AFA0-42B8-BE12-39C6AF296400} = {8B43B780-5E09-4A39-9333-67D294946868}
 		{4D23FFB2-9292-403B-9D7E-436DCF58AC65} = {8B43B780-5E09-4A39-9333-67D294946868}
+<<<<<<< HEAD
 		{1BA15897-49A7-456C-B4E2-FFD74FF81536} = {8B43B780-5E09-4A39-9333-67D294946868}
+=======
+>>>>>>> 0417a8859faff85f35ffc828825c28741bfc2b15
 	EndGlobalSection
 EndGlobal

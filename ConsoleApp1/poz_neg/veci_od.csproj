@@ -4,20 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{724679B0-A0B6-4D3D-8D73-19546C34213F}</ProjectGuid>
+    <ProjectGuid>{91403C34-B1CA-4843-95D0-1326D3D8EFD3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zbroj</RootNamespace>
-    <AssemblyName>Zbroj</AssemblyName>
-<<<<<<< HEAD
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
-=======
+    <RootNamespace>poz_neg</RootNamespace>
+    <AssemblyName>poz_neg</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
->>>>>>> 0417a8859faff85f35ffc828825c28741bfc2b15
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
