@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _5._2._3_exception
-{
+{//com
     class Program
     {
         static void Main(string[] args)
