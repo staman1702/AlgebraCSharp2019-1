@@ -11,7 +11,7 @@ namespace _5_3_1_1_WHILE_iz_knjige
         static void Main(string[] args)
         {
             string ime = "";
-            while (ime != "kraj") ;
+            while (ime != "kraj") 
             {
                 Console.WriteLine("Unesi ime: ");
                 ime=Console.ReadLine();
