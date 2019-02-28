@@ -11,22 +11,38 @@ namespace _5_2_5_ostatak
         static void Main(string[] args)
 
         {
+
+            try
+            {
             Console.WriteLine("unesite cijeli broj: ");
             int a = int.Parse(Console.ReadLine());
 
-            if (a % 2 == 0)
+            
+                if (a % 2 == 0)
+                {
+                    Console.WriteLine("Unešeni broj " + a + " je paran.");
+
+                }
+                else
+                {
+                    Console.WriteLine("Unešeni broj " + a + " nije paran.");
+
+                }
+
+                
+            }
+
+            catch(FormatException ex)
             {
-                Console.WriteLine("Unešeni broj " + a + " je paran.");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("GREŠKA 1: " + ex.ToString());
 
             }
-            else
+
+            finally
             {
-                Console.WriteLine("Unešeni broj " + a + " nije paran.");
-
+                Console.ReadKey();
             }
-
-            Console.ReadKey();
-
 
         }
     }
