@@ -35,11 +35,21 @@ namespace _5_3_4_faktorijel
                 Console.WriteLine("Faktorijela je: " + fact);
             }
 
-            catch (Exception ex) //antibiotik za sve greške, ne daje direktnu dijagnozu greške nego samo ukaže da postoji
-            { 
-                Console.WriteLine(ex.ToString());
+            catch (FormatException fex)
+            {
+                Console.WriteLine("\n GREŠKA, Nije unešen numerički znak: \n \n"
+                    + fex.Message
+                    + "\n \n"
+                    + fex.ToString());
             }
-            Console.ReadLine();
+            catch (Exception ex)
+            {
+                Console.WriteLine("\n GREŠKA, generička: \n \n" + ex.Message + "\n" + ex.ToString());
+            }
+            finally
+            {
+                Console.ReadLine();
+            }
         }
     }
 }

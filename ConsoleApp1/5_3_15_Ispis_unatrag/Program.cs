@@ -11,7 +11,7 @@ namespace _5_3_15_Ispis_unatrag
         static void Main(string[] args)
         {
 
-            //try       exceptions-i nisu potrebni jerbo nema unosa ali nije lose upisati za vjezbu !!
+            //try       exceptions-i nisu potrebni jerbo nema unosa 
             //{
                 Console.Write("Interval [1,10] unatrag: \n");
 
