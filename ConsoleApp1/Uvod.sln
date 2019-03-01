@@ -93,6 +93,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "weekend_zadaca_veljaca", "w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_3_17_potencije", "5_3_17_potencije\5_3_17_potencije.csproj", "{EFD0E1A9-B766-4CFA-A352-3906F4A8A60E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_3_19_suma", "5_3_19_suma\5_3_19_suma.csproj", "{9F495892-3361-47F4-982B-20171155932B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -251,6 +253,10 @@ Global
 		{EFD0E1A9-B766-4CFA-A352-3906F4A8A60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFD0E1A9-B766-4CFA-A352-3906F4A8A60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFD0E1A9-B766-4CFA-A352-3906F4A8A60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F495892-3361-47F4-982B-20171155932B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F495892-3361-47F4-982B-20171155932B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F495892-3361-47F4-982B-20171155932B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F495892-3361-47F4-982B-20171155932B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -288,6 +294,7 @@ Global
 		{840E0B59-76DD-4808-B24E-2C0B52F0AE36} = {4CBD3EB8-435E-455C-9AD8-01AFE9847F61}
 		{0FE80AE9-E388-45A2-A85A-D16640928A28} = {4CBD3EB8-435E-455C-9AD8-01AFE9847F61}
 		{EFD0E1A9-B766-4CFA-A352-3906F4A8A60E} = {4CBD3EB8-435E-455C-9AD8-01AFE9847F61}
+		{9F495892-3361-47F4-982B-20171155932B} = {4CBD3EB8-435E-455C-9AD8-01AFE9847F61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6AA61C3-F0E9-491F-888D-34B0ECDC85F2}
