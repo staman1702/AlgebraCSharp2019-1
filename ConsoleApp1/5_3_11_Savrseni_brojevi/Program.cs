@@ -6,20 +6,69 @@ using System.Threading.Tasks;
 
 namespace _5_3_11_Savrseni_brojevi
 {
-    class Program//odustao do danjeg dok ne skuzim sta je savrseni broj!!!
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Unesite vaš broj: \n");
 
-            for (int i = 1; i <= 1000; i++)
+
+            try
             {
-                if (i % 7 == 0 && !(i % 3 == 0))
+                Console.Write("--ISPIS SAVRŠENIH BROJEVA U ODREĐENOM INTERVALU-- \n");
+
+                Console.WriteLine("Unesite donju granicu svog intervala:");
+                int a = int.Parse(Console.ReadLine());
+                Console.WriteLine("Unesite gornju granicu svog intervala:");
+                int b = int.Parse(Console.ReadLine());
+
+                if (a > b)
                 {
-                    Console.WriteLine("{0} ", i);
+                    Console.WriteLine("Donja granica intervalu mora biti manja od gornje!");
+                    Console.ReadLine();
                 }
+                else
+                {
+                    for (int i = a; i <= b; i++)
+                    {
+
+                        int zbrojDjelitelja = 0;
+
+                        for (int j = a; j < i; j++)
+                        {
+                            if (i % j == 0)
+                            {
+                                zbrojDjelitelja += j;
+
+                            }
+
+
+                        }
+
+
+                        if (i == zbrojDjelitelja)
+                        {
+                            Console.WriteLine("{0}\t ", i);
+
+                        }
+
+                    }
+                }
+                
+
             }
-            Console.ReadLine();
+
+            catch (FormatException fex)
+            {
+                Console.WriteLine("KRIVI UNOS!!" + fex.ToString());
+            }
+
+            finally
+            {
+                Console.ReadLine();
+            }
+            
         }
     }
+
+   
 }

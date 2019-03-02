@@ -17,11 +17,11 @@ namespace _5_3_5_djeljiv_s_3_interval
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
 
-                //try
-                //{
-                //if(a < b)
+                try
+                {
+                    if (a < b)
 
-                for (int i = a; i < b; i++)
+                        for (int i = a; i < b; i++)
                 {
                     if (i % 3 == 0)
                     {
