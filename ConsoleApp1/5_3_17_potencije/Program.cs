@@ -10,15 +10,15 @@ namespace _5_3_17_potencije
     {
         static void Main(string[] args)
         {
-
-            Console.Write("Ispis od prve do desete potencije broja dva: \n");
+            //mala izmjena, umjesto potencije 2 koristio sam potenciju 3 da vidim jel radi...
+            Console.Write("Ispis od prve do desete potencije broja tri: \n");
             int b = 1;
 
            
                 for (int i = 1; i <= 10; i++)
                 {
 
-                    Console.WriteLine("{0}. {1} ", i, (b *= 2));
+                    Console.WriteLine("{0}. {1} ", i, (b *= 3));
 
                 }
 
