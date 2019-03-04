@@ -14,7 +14,7 @@ namespace _5_3_8_koliko
             Console.WriteLine("U INTERVALU [1,1000] IMA:");
             int a = 0;
 
-            for (int i = 0; i <= 1000; i++)
+            for (int i = 1; i <= 1000; i++)
             {
                 if ( i % 7 == 0 && i % 3 != 0)
                 {
