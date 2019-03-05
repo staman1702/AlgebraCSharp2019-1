@@ -44,7 +44,7 @@ namespace _5_3_22_kalkulator2
                             if (b == 0)
                             {
 
-                                throw new DivideByZeroException("Ne dijeliti sa nulom...");
+                                throw new DivideByZeroException(" ");
 
                             }
                             Console.WriteLine("kvocijent je: {0} / {1} = {2}", a, b, (a / b));
@@ -66,12 +66,12 @@ namespace _5_3_22_kalkulator2
 
             catch (DivideByZeroException dbzex)
                 {
-                    Console.WriteLine("Ne dijeliti sa nulom..." + dbzex.ToString());
+                    Console.WriteLine("Ne dijeliti sa nulom... \n\n" + dbzex.ToString());
                 }
 
             catch (FormatException ex)
                 {
-                    Console.WriteLine("Formatska greška!" + ex.ToString());
+                    Console.WriteLine("\n\n Formatska greška! \n\n" + ex.ToString());
                 }
 
             
