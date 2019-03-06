@@ -19,7 +19,7 @@ namespace _7_2_9_Prosjek_ZADACA
                 if (a > 1 && a < 5)
 
                 {
-                    Console.WriteLine("Prosjek je {0}", prosjek(a));
+                    Console.WriteLine("Prosjek je {0}.", prosjek(a));
 
                 }
                 else
