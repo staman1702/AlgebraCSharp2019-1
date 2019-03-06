@@ -10,24 +10,57 @@ namespace _7_2_9_Prosjek_ZADACA
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Unesite prosječne ocjene i završite sa <0>: ");
-            int a = -1;
-            while (a!=0)
 
-            float prosjek = 0;
-            for (int i = 1; i <= 5; i++)
+            try
             {
-                a += int.Parse(Console.ReadLine());
+                Console.WriteLine("Unesite prosječnu ocjenu: ");
+                double a = double.Parse(Console.ReadLine());
 
+                if (a > 1 && a < 5)
+
+                {
+                    Console.WriteLine("Prosjek je {0}", prosjek(a));
+
+                }
+                else
+                {
+                    Console.WriteLine("Prosjek neispravno unešen!");
+                }
             }
 
-            prosjek = (float)a / 5;
-
-            Console.WriteLine("Suma brojeva je {0}, a prosjek im je {1}", a, prosjek);
-
-
+            catch (FormatException fex)
+            {
+                Console.WriteLine("KRIVI FORMAT UNOSA\n" + fex.ToString());
+            }
             Console.ReadLine();
+        }
 
+         static string prosjek(double a)
+        {
+            string prosjek = "";
+
+            if (a<2)
+            {
+                prosjek = "nedovoljan";
+            }
+            else if (a < 2.5)
+            {
+                prosjek = "dovoljan";
+            }
+            else if (a < 3.5)
+            {
+                prosjek = "dobar";
+            }
+            else if (a < 4.5)
+            {
+                prosjek = "vrlo dobar";
+            }
+            else 
+            {
+                prosjek = "odličan";
+            }
+
+            return prosjek;
         }
     }
 }

@@ -10,12 +10,14 @@ namespace _7_2_potprogrami
     {
         static void Main(string[] args)
         {
-            HelloWorld();
+            HelloWorld(); //pozivanje heloworlda
 
             //da smo van Main-a bi morali pisati " Program.HelloWorld(); "
             //npr:
             Program.HelloWorld();
-            Console.WriteLine(HelloWorld("Ola"));
+
+
+            Console.WriteLine(HelloWorld("Ola")); //mjesto vracanja vrijednosti iz funkcije
 
             Console.ReadKey();
         }
@@ -27,7 +29,12 @@ namespace _7_2_potprogrami
 
         static String HelloWorld(string poz)
         {
-            return poz + " i tebi korisniče" ;
+            return poz + " i tebi korisniče" ; //ovo je funkcija koja vraca neku vrijednost
         }
     }
 }
+
+<?php
+    
+    
+ ?>

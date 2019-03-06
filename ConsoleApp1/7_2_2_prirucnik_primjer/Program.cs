@@ -10,15 +10,16 @@ namespace _7_2_2_prirucnik_primjer
     {
         static void Main(string[] args)
         {
-            Pozdrav("Pero");
+          
             Pozdrav("Pero", "Perić");
+            Pozdrav("Pero");
             Console.ReadLine();
 
 
 
         }
 
-        private static void Pozdrav(string ime, string prezime)
+        static void Pozdrav(string ime, string prezime)
         {
             Console.WriteLine("Dobar dan, " + ime + " " + prezime);
         }
