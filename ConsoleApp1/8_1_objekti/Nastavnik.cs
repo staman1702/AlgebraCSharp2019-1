@@ -31,11 +31,18 @@ namespace _8_1_objekti
             //static znaci da je vezano  i ne komunicira sa ostatkom klase
 
         }
-
+        /// <summary>
+        /// ovo dohvaca koeficijent za izracun place
+        /// </summary>
+        /// <returns>float</returns>
         public static float Koeficijent()
         {
             return 1.5f;
         }
-
+        
+        public override string ToString()
+        {
+            return "Moje ime je " + this.Ime + " a moj oib je: " + this.PartOib.ToString() +"#####.";
+        }
     }
 }

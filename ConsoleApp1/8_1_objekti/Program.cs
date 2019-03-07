@@ -15,7 +15,8 @@ namespace _8_1_objekti
             Console.WriteLine(Nastavnik.Opis());
             Console.WriteLine("Koji je koeficijent nastavnika");
             Console.WriteLine(Nastavnik.Koeficijent());
-
+            
+            
 
             Nastavnik n1 = new Nastavnik();
             //n1.Ime = "Claudie"    -ne možemo postaviti read only svojstvo
@@ -63,11 +64,25 @@ namespace _8_1_objekti
             ucenici.Add(ucenik1);
             ucenici.Add(ucenik2);
 
+
+
             //alternativni nacin unosa,addovanja
             //List<Ucenik> ucenici = new List<Ucenik> { ucenik1, ucenik2 };
            
 
             foreach (var item in ucenici)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            List<Nastavnik> nastavnici = new List<Nastavnik>();
+            nastavnici.Add(n1);
+
+            
+            Console.WriteLine("Nastavnici su: ");
+
+            foreach (var item in nastavnici)
             {
                 Console.WriteLine(item);
             }
