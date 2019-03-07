@@ -9,7 +9,11 @@ namespace _8_1_objekti
     class Program
     {
         static void Main(string[] args)
-        {   
+        {
+
+            Console.WriteLine("Što je to nastavnik?");
+            Console.WriteLine(Nastavnik.Opis());
+
             //instanciraj novi objekt klase Ucenik
             Ucenik ucenik1 = new Ucenik();
 

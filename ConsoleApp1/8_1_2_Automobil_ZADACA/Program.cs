@@ -10,7 +10,7 @@ namespace _8_1_2_Automobil_ZADACA
     {
         static void Main(string[] args)
         {
-
+            
             Automobil automobil1 = new Automobil();
 
             Console.WriteLine("Unesite marku automobila:");

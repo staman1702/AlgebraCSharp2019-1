@@ -10,6 +10,7 @@ namespace _8_1_1_Proivod_ZADACA
     {
         static void Main(string[] args)
         {
+            
             Proizvod proizvod1 = new Proizvod();
 
             Console.WriteLine("Unesite naziv proizvoda:");
