@@ -24,7 +24,7 @@ namespace _8_1_1_Proivod_ZADACA
             Console.WriteLine("Unesite porez (%):");
             proizvod1.porez = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Maloprodajna cijena je: {0}", proizvod1.mpc().ToString("#.##"));
+            Console.WriteLine("Maloprodajna cijena za {0} je {1}", proizvod1.ime, proizvod1.mpc().ToString("#.##"));
 
             Console.ReadKey();
 
