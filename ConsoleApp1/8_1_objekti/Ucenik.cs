@@ -6,12 +6,18 @@ namespace _8_1_objekti
     {
 
         //polja klase!!!
-        public string ime = "";
+        private string ime = "";
         public string prezime = "";
         public DateTime datumNastanka; //(morali gore dodati using sistem da bi nam system.DateTime radio)
         public int ocjenaMatematika = 0;
         public int ocjenaEngleski = 0;
         public int ocjenaBiologija = 0;
+
+        public string Ime  //enkapsulacija
+        {
+            get => ime; //acceptor
+            set => ime = ToUpper.FirstCharToUpper(value); //mutator
+        }
 
 
 
@@ -23,13 +29,13 @@ namespace _8_1_objekti
 
         public Ucenik(string v)
         {
-            this.ime = v;
+            this.Ime = v;
         }
 
         //konstruktor: jer je posebna vrsta funkcije koja ima isto ime kao klasa
         public Ucenik(string v, string prez)
         {           
-            this.ime = v; //povezuje v u ovom bloku sa ime tamo gore (public string ime = "";)
+            this.Ime = v; //povezuje v u ovom bloku sa ime tamo gore (public string ime = "";)
             this.prezime = prez;
 
         }
@@ -45,7 +51,7 @@ namespace _8_1_objekti
 
         public override string ToString()
         {
-            return "Moje ime je " + this.ime + " a moj prosjek je: " + this.Prosjek().ToString("#.##");
+            return "Moje ime je " + this.Ime + " a moj prosjek je: " + this.Prosjek().ToString("#.##");
         }
     }
 }

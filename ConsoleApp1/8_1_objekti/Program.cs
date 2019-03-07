@@ -17,9 +17,9 @@ namespace _8_1_objekti
             //instanciraj novi objekt klase Ucenik
             Ucenik ucenik1 = new Ucenik();
 
-            //inciraj
+            //instanciraj
             Console.WriteLine("Unesite ime ucenika: ");
-            ucenik1.ime = Console.ReadLine();
+            ucenik1.Ime = Console.ReadLine();
 
             Console.WriteLine("Unesite prezime ucenika: ");
             ucenik1.prezime = Console.ReadLine();
@@ -38,7 +38,7 @@ namespace _8_1_objekti
             //instanciraj novi objekt klase Ucenik
             Ucenik ucenik2 = new Ucenik("Perica");
 
-            Console.WriteLine("\nIme učenika je " + ucenik1.ime + " i " + ucenik2.ime);
+            Console.WriteLine("\nIme učenika je " + ucenik1.Ime + " i " + ucenik2.Ime);
 
             List<Ucenik> ucenici = new List<Ucenik>();
             ucenici.Add(ucenik1);
