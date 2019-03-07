@@ -13,6 +13,25 @@ namespace _8_1_objekti
 
             Console.WriteLine("Što je to nastavnik?");
             Console.WriteLine(Nastavnik.Opis());
+            Console.WriteLine("Koji je koeficijent nastavnika");
+            Console.WriteLine(Nastavnik.Koeficijent());
+
+
+            Nastavnik n1 = new Nastavnik();
+            //n1.Ime = "Claudie"    -ne možemo postaviti read only svojstvo
+
+            //ispis može:
+            Console.WriteLine("Njegovo ime je " + n1.Ime);
+
+            //oib pak možemo postaviti ali necemo moci ispisati
+            n1.Oib = 123456789;
+
+            //Console.WriteLine("Njegov Oib je " + n1.Oib);
+
+            //ispis dijela Oib-a
+            Console.WriteLine("Njegov Oib je " + n1.PartOib + "#####");
+
+
 
             //instanciraj novi objekt klase Ucenik
             Ucenik ucenik1 = new Ucenik();
