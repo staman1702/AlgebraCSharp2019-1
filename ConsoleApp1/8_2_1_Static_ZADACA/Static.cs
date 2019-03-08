@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _8._2._1_static_ZADACA
+namespace _8_2_1_static_ZADACA
 {
     class Static
     {
