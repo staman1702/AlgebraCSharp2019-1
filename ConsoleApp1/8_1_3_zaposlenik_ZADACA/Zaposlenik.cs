@@ -10,13 +10,17 @@
         public double bbod = 0;
         public double vbod = 0;
         public double porez = 0;
-        
-   
+
+
         //defaultni konstruktor
+
+        #region DEFAULTNI KONSTRUKTOR 
         public Zaposlenik()
         {
             
         }
+        #endregion
+
 
         //konstruktor sa argumentima (parametrima): ime, prezime
         public Zaposlenik(string ime, string prezime)
@@ -26,6 +30,7 @@
         }
 
         //konstruktor sa argumentima: ime, prezime, oib
+
         public  Zaposlenik( string ime, string prezime, int oib)
         {
             this.ime = ime;
