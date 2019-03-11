@@ -2,7 +2,7 @@
 
 namespace _8_2_1_Static_ZADACA
 {
-    internal class Static
+    public class Static
     {
         private Static() { }
 
