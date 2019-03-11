@@ -55,20 +55,20 @@
 
         public Ucenik(string ime, string prezime)
         {
-            this.ime = ime;
-            this.prezime = prezime;
+            this.ime = ToUpper.FirstCharToUpper(ime);
+            this.prezime = ToUpper.FirstCharToUpper(prezime); 
         }
         public Ucenik(string ime, string prezime, int oib)
         {
-            this.ime = ime;
-            this.prezime = prezime;
+            this.ime = ToUpper.FirstCharToUpper(ime);
+            this.prezime = ToUpper.FirstCharToUpper(prezime);
             this.oib = oib;
         }
 
         public Ucenik(string ime, string prezime, int oib, int racun)
         {
-            this.ime = ime;
-            this.prezime = prezime;
+            this.ime = ToUpper.FirstCharToUpper(ime);
+            this.prezime = ToUpper.FirstCharToUpper(prezime);
             this.oib = oib;
             this.racun = racun;
         }

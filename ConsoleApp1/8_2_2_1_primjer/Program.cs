@@ -10,7 +10,7 @@ namespace _8_2_2_1_primjer
     {
         static void Main(string[] args)
         {
-            int x = 1;
+            int x = 151;
             Console.WriteLine("x={0}",x);
 
             Povecaj1(x);

@@ -16,7 +16,7 @@ namespace ZADACA_11_3
 
             List<Ucenik> listaucenika = new List<Ucenik>()
             {
-                new Ucenik("Mario","Marić"),
+                new Ucenik("mario","Marić"),
                 new Ucenik("Ivan","ivić", 456789123),
                 new Ucenik("tomo","Tomić",789465132, 4562)
 
@@ -69,7 +69,7 @@ namespace ZADACA_11_3
 
         private static void UnesiRacun(Ucenik ucenik)
         {
-            // Korisnik mora ispravno unijeti oib
+            // Korisnik mora ispravno unijeti racun
             bool provjeraUnosa = false;
             while (!provjeraUnosa)
             {
@@ -118,13 +118,14 @@ namespace ZADACA_11_3
 
         private static void IspisUcenika(Ucenik ucenik)
         {
-            Console.WriteLine("Ucenik: " + ucenik.Ime + " " + ucenik.Prezime + " na računu ima: " + ucenik.Racun + " hrk.");
+            Console.WriteLine("Ucenik: " + ucenik.Ime + " " + ucenik.Prezime + ", oib: " + ucenik.PartialOib
+                + " na računu ima: " + ucenik.Racun + " hrk.");
         }
 
         private static void IspisUcenika2(Ucenik ucenik)
         {
-            Console.WriteLine("Ucenik: " + ucenik.Ime + " " + ucenik.Prezime + " nakon plačanja školarine na računu ima: " 
-                + ucenik.Stanje() + " hrk.");
+            Console.WriteLine("Ucenik: " + ucenik.Ime + " " + ucenik.Prezime + ", oib: " + ucenik.PartialOib 
+                + " nakon plačanja školarine na računu ima: " + ucenik.Stanje() + " hrk.");
         }
     }
 }
