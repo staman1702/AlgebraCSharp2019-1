@@ -18,7 +18,7 @@
         public string Ime
         {
             get { return ime; }
-            set => ime = ToUpper.FirstCharToUpper(value);
+            
         }
 
         string prezime = "";
