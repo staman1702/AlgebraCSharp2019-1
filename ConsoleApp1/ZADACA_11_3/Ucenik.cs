@@ -26,7 +26,7 @@
         {
 
             get { return prezime; }
-            set => prezime = ToUpper.FirstCharToUpper(value);
+            
         }
 
         
