@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ZADACA_11_3
 {
-    internal class ToUpper
+    public static class ToUpper
     {
         public static string FirstCharToUpper(this string input)
         {
@@ -22,3 +22,5 @@ namespace ZADACA_11_3
         }
     }
 }
+
+

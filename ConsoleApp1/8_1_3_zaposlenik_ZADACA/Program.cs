@@ -23,7 +23,7 @@ namespace _8_1_3_zaposlenik_ZADACA
 
 
                 Console.WriteLine("unesite ime: ");
-                Z1.Ime = Console.ReadLine();
+                Z2.Ime = Console.ReadLine();
 
                 Console.WriteLine("unesite prezime: ");
                 Z1.Prezime = Console.ReadLine();
