@@ -93,7 +93,7 @@ namespace ZADACA_11_3
         }
         private static void UnesiTelefon(Ucenik ucenik)
         {
-            // Korisnik mora ispravno unijeti oib
+            // Korisnik mora ispravno unijeti telefon
             bool provjeraUnosa = false;
             while (!provjeraUnosa)
             {
@@ -118,13 +118,13 @@ namespace ZADACA_11_3
 
         private static void IspisUcenika(Ucenik ucenik)
         {
-            Console.WriteLine("Ucenik: " + ucenik.Ime + " " + ucenik.Prezime + ", oib: " + ucenik.PartialOib
+            Console.WriteLine("\nUčenik " + ucenik.Ime + " " + ucenik.Prezime + ", oib: " + ucenik.PartialOib
                 + " na računu ima: " + ucenik.Racun + " hrk.");
         }
 
         private static void IspisUcenika2(Ucenik ucenik)
         {
-            Console.WriteLine("Ucenik: " + ucenik.Ime + " " + ucenik.Prezime + ", oib: " + ucenik.PartialOib 
+            Console.WriteLine("\nUčenik " + ucenik.Ime + " " + ucenik.Prezime + ", oib: " + ucenik.PartialOib 
                 + " nakon plačanja školarine na računu ima: " + ucenik.Stanje() + " hrk.");
         }
     }
