@@ -45,24 +45,31 @@ namespace ZADACA_11_3
         private static void UnesiOib(Ucenik ucenik)
         {
             // Korisnik mora ispravno unijeti oib
+            { 
             bool provjeraUnosa = false;
-            while (!provjeraUnosa)
-            {
-                Console.Write("Unesite oib učenika {0}: ", ucenik.Ime);
 
-                try
+          
+                while (!provjeraUnosa)
                 {
-                    ucenik.Oib = int.Parse(Console.ReadLine());
-                    provjeraUnosa = true;
-                }
 
-                catch (FormatException ex) // specijalne greške
-                {
-                    Console.WriteLine("Greška:" + ex.Message);
-                }
-                catch (Exception ex)// ostale greške
-                {
-                    Console.WriteLine("Greška" + ex.Message);
+                    Console.Write("Unesite oib učenika {0}: ", ucenik.Ime);
+
+                    try
+                    {
+                        ucenik.Oib = ucenik.Oib;
+                        ucenik.Oib = int.Parse(Console.ReadLine());
+                        provjeraUnosa = true;
+                    }
+
+                    catch (FormatException ex) // specijalne greške
+                    {
+                        Console.WriteLine("Greška:" + ex.Message);
+                    }
+                    catch (Exception ex)// ostale greške
+                    {
+                        Console.WriteLine("Greška" + ex.Message);
+                    }
+
                 }
             }
         }
@@ -77,6 +84,7 @@ namespace ZADACA_11_3
 
                 try
                 {
+                    
                     ucenik.Racun = int.Parse(Console.ReadLine());
                     provjeraUnosa = true;
                 }
@@ -101,7 +109,7 @@ namespace ZADACA_11_3
 
                 try
                 {
-                    ucenik.Telefon = int.Parse(Console.ReadLine());
+                    ucenik.telefon = int.Parse(Console.ReadLine());
                     provjeraUnosa = true;
                 }
 

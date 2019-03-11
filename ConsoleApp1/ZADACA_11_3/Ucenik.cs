@@ -5,7 +5,7 @@
 
         //string ime = "";
         //string prezime = "";
-        private int oib;
+        private int oib =0;
      
         public int racun;
         public int telefon = 0;
@@ -47,12 +47,7 @@
             set { racun = value; }
         }
 
-        public int Telefon
-        {
-            get { return telefon; }
-            set { telefon = value; }
-        }
-
+       
         public Ucenik(string ime, string prezime)
         {
             this.ime = ToUpper.FirstCharToUpper(ime);
