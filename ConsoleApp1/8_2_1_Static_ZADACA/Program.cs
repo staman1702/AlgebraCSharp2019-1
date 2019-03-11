@@ -30,7 +30,7 @@ namespace _8_2_1_Static_ZADACA
             double y1 = double.Parse(Console.ReadLine());
             Console.Write("Unesite y2: ");
             double y2 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Udaljensot točaka: " + Static.Udaljenost(x1, x2, y1, y2));
+            Console.WriteLine("Udaljenost točaka: " + Static.Udaljenost(x1, x2, y1, y2));
 
             Console.Write("Unesite Celzijuse: ");
             double stupnjevaCelzijusa = double.Parse(Console.ReadLine());
