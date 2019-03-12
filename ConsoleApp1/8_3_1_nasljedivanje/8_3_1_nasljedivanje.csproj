@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Automobil.cs" />
+    <Compile Include="Ispit.cs" />
+    <Compile Include="IUcenik.cs" />
     <Compile Include="Osoba.cs" />
     <Compile Include="Pilot.cs" />
     <Compile Include="Program.cs" />

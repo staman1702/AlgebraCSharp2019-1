@@ -16,6 +16,8 @@ namespace _8_3_1_nasljedivanje
             Ucenik uc2 = new Ucenik("Anica");
             Ucenik uc3 = new Ucenik("Perica","Perić");
 
+            uc3.PrijaviIspit(new Ispit("Engleski"));
+
             
 
             List<Ucenik> ucenici = new List<Ucenik>();

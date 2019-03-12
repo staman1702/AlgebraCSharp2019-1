@@ -4,7 +4,7 @@ using _8_1_objekti;
 
 namespace _8_3_1_nasljedivanje
 {
-    internal class Ucenik:Osoba
+    internal class Ucenik : Osoba, IUcenik
     {              
         //private string ime = "";
         //public string prezime = "";
@@ -12,7 +12,7 @@ namespace _8_3_1_nasljedivanje
         public int ocjenaMatematika = 0;
         public int ocjenaEngleski = 0;
         public int ocjenaBiologija = 0;
-
+        private Ispit prijavljeniIspit;
         //public string Ime  
         //{
         //    get => ime;
@@ -40,6 +40,12 @@ namespace _8_3_1_nasljedivanje
             //this.Ime = v; 
             this.prezime = prez;
 
+        }
+
+        public void PrijaviIspit(Ispit ispit)
+        {
+            this.prijavljeniIspit = ispit;
+            Console.WriteLine("Uspješno ste prijavili: " + this.prijavljeniIspit.Naziv);
         }
 
         public double Prosjek()
