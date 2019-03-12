@@ -19,11 +19,24 @@ namespace _8_3_1_nasljedivanje
             uc3.PrijaviIspit(new Ispit("Engleski"));
 
             
-
+            //generik list
             List<Ucenik> ucenici = new List<Ucenik>();
             ucenici.Add(uc1);
             ucenici.Add(uc2);
             ucenici.Add(uc3);
+
+            //collection base lista i kolekcije objekata (studenti) (zapravo se ponasa kao arraylist)
+            Studenti studenti = new Studenti();
+            studenti.Add(uc1);
+            studenti.Add(uc2);
+            studenti.Add("Lara","Crofft");
+
+            Console.WriteLine("\nispis klase studenti koja nasljeđuje CollectionBase");
+            foreach (var item in studenti)
+            {
+                Console.WriteLine("\n----->" + item.ToString());
+            }
+
 
 
             foreach (var item in ucenici)
