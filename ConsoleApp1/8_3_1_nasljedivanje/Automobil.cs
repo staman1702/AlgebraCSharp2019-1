@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace _8_1_2_Automobil_ZADACA
+namespace _8_3_1_nasljedivanje
 {
-
     public class Automobil
     {
         public string marka = "";
@@ -24,27 +27,27 @@ namespace _8_1_2_Automobil_ZADACA
         {
             double mpc = 0;
 
-            if (ks<50)
+            if (ks < 50)
             {
-                mpc = (double) oscijena + (oscijena * 0.05);
+                mpc = (double)oscijena + (oscijena * 0.05);
 
-                
-            }
-            if (ks>=50 && ks<150)
-            {
-                mpc = (double) oscijena + (oscijena * 0.1);
-
-               
 
             }
-            else 
+            if (ks >= 50 && ks < 150)
             {
-                mpc = (double) oscijena + (oscijena * 0.15);
+                mpc = (double)oscijena + (oscijena * 0.1);
+
+
+
+            }
+            else
+            {
+                mpc = (double)oscijena + (oscijena * 0.15);
 
             }
 
             return mpc;
-            
+
 
         }
     }
