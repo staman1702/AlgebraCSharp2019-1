@@ -207,6 +207,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_business_layer", "p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operateri", "Operateri\Operateri.csproj", "{0767232E-3A55-4A62-B0A9-3F83A878488B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8_5_događaji", "8_5_događaji", "{4BB30918-5DB3-4494-BD28-49FE5CDFCD34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_5_1_dog_primjer", "8_5_1_dog_primjer\8_5_1_dog_primjer.csproj", "{2A4A547F-523E-41BB-8A15-639AC628DD7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -565,6 +569,10 @@ Global
 		{0767232E-3A55-4A62-B0A9-3F83A878488B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0767232E-3A55-4A62-B0A9-3F83A878488B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0767232E-3A55-4A62-B0A9-3F83A878488B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4A547F-523E-41BB-8A15-639AC628DD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4A547F-523E-41BB-8A15-639AC628DD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4A547F-523E-41BB-8A15-639AC628DD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4A547F-523E-41BB-8A15-639AC628DD7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -651,6 +659,7 @@ Global
 		{9B8C2BD9-B252-47A2-A30A-D514025A9958} = {3F2EFAC7-6213-4643-B828-45E607D646C1}
 		{91911CB4-A21F-422A-BEB0-24BAE022BFF6} = {3F2EFAC7-6213-4643-B828-45E607D646C1}
 		{0767232E-3A55-4A62-B0A9-3F83A878488B} = {3F2EFAC7-6213-4643-B828-45E607D646C1}
+		{2A4A547F-523E-41BB-8A15-639AC628DD7C} = {4BB30918-5DB3-4494-BD28-49FE5CDFCD34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6AA61C3-F0E9-491F-888D-34B0ECDC85F2}
