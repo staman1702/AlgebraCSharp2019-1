@@ -41,6 +41,9 @@ namespace _13_1_enumeracije
         {
             Firma algebra = new Firma("Algebra d.o.o.");
             algebra.Kat = Katovi.Treci;
+
+            Console.WriteLine(algebra);
+            Console.ReadLine();
         
         }
     }
@@ -58,5 +61,25 @@ namespace _13_1_enumeracije
 
         public Katovi Kat { get => kat; set => kat = value; }
         public string Naziv { get => naziv; set => naziv = value; }
+
+        public override string ToString()
+        {
+            string kojiKat = "";
+
+            switch ((int)kat)
+            {
+                case 0: kojiKat = "nultom"; break;
+                case 1: kojiKat = "prvom"; break;
+                case 2: kojiKat = "drugom"; break;
+                case 3: kojiKat = "trećem"; break;
+                case 4: kojiKat = "četvrtom"; break;
+                default: kojiKat = "nepoznatom";break;
+
+            }
+
+
+        
+            return "Naše im je: " + this.Naziv + " i nalazimo se na " + kojiKat + " katu";
+        }
     }
 }
