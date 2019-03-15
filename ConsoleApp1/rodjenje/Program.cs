@@ -11,7 +11,7 @@ namespace rodjenje
         static void Main(string[] args)
         {
 
-            Ucenik uc1 = new Ucenik("Mario","Marić",Datum(2000,11,10), 3.5);
+            Ucenik uc1 = new Ucenik("Mario","Marić", Datum(2000,11,10), 3.5);
             Ucenik uc2 = new Ucenik("dario", "baRIĆ", Datum(1995, 8, 11), 4);
             Ucenik uc3 = new Ucenik("Pero", "Perić", Datum(1992, 6, 19), 1.5);
 

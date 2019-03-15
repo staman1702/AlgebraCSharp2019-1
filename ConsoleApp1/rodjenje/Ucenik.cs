@@ -41,7 +41,7 @@ namespace rodjenje
         public override string ToString()
         {
             return "Pozdrav. Ja sam " + this.Ime + " " + this.Prezime + " rođen sam "
-                + this.DatumRodenja.ToString("dd. MM yyyy")
+                + this.DatumRodenja.ToString("dd. MMMM yyyy")
                 + ". \nMoj prosjek je " + this.Prosjek + " i star sam " + this.Starost + 
                 " godina.\n".ToString();
         }
