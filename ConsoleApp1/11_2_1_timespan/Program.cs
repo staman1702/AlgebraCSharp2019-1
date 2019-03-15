@@ -12,7 +12,7 @@ namespace _11_2_1_timespan
         {
 
             DateTime datum1 = new DateTime(2015, 1, 1, 10, 0, 0);
-            DateTime datum2 = new DateTime(2016, 8, 1, 12, 0, 0);
+            DateTime datum2 = new DateTime(2018, 8, 1, 12, 0, 0);
 
             TimeSpan interval = datum2 - datum1;
 

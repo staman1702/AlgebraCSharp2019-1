@@ -39,12 +39,13 @@ namespace Zadatak3
 
         public int Starost()
         {
-
-            DateTime d1 = new DateTime(Godiste);
-
+            int tekuca = int.Parse(DateTime.Now.Year.ToString());
 
 
-            return d1
+
+
+
+            return tekuca - Godiste;
 
             
             
@@ -72,8 +73,8 @@ namespace Zadatak3
 
         public override string ToString()
         {
-            return "Naziv auta: " + this.Naziv + "godina proizvodnje je " + this.Godiste + ", starost auta je "
-                + Starost() + " godina, a ukupna cijena je " + UkupnaCijena().ToString();
+            return "Naziv auta: " + this.Naziv + ", godina proizvodnje je " + this.Godiste + ", starost auta je "
+                + Starost() + " godina, a ukupna cijena je " + UkupnaCijena().ToString("#.##") + "hrk.".ToString();
         }
     }
 }
