@@ -1,0 +1,23 @@
+USE ispit
+GO
+
+CREATE TABLE prijatelji(
+id INT NOT NULL PRIMARY KEY,
+ime VARCHAR(20) NOT NULL,
+prezime VARCHAR(25) NOT NULL)
+GO
+
+CREATE TABLE diskovi(
+id_diska INT NOT NULL PRIMARY KEY,
+naziv VARCHAR(20) NOT NULL,
+tip_diska VARCHAR(5) NOT NULL)
+GO
+
+CREATE TABLE posudba(
+id INT NOT NULL
+FOREIGN KEY REFERENCES prijatelji(id),
+id_diska INT NOT NULL 
+FOREIGN KEY REFERENCES diskovi(id_diska),
+datumposudbe DATETIME,
+datumpovrata DATETIME)
+GO
